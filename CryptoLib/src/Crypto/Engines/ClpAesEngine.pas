@@ -770,9 +770,6 @@ begin
       (@SAESEngineNotInitialised);
   end;
 
-  TCheck.DataLength(input, inOff, 16, SInputBuffertooShort);
-  TCheck.OutputLength(output, outOff, 16, SOutputBuffertooShort);
-
   UnPackBlock(input, inOff);
 
   if (FforEncryption) then
