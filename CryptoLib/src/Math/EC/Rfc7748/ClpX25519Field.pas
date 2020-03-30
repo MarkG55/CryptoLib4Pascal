@@ -136,6 +136,9 @@ type
 
 implementation
 
+uses
+  ClpBitConverter;
+
 { TX25519Field }
 
 class procedure TX25519Field.Boot;

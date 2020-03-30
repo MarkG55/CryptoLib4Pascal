@@ -88,6 +88,9 @@ type
 
 implementation
 
+uses
+  ClpIX9ECParametersHolder;
+
 { TNistNamedCurves }
 
 class procedure TNistNamedCurves.DefineCurveAlias(const name: String;

@@ -425,6 +425,9 @@ type
 
 implementation
 
+uses
+  ClpBitConverter;
+
 { TEd25519.TPointExt }
 
 class function TEd25519.TPointExt.CreatePointExt(): TPointExt;

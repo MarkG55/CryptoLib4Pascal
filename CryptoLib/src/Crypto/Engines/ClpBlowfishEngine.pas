@@ -310,6 +310,9 @@ type
 
 implementation
 
+uses
+  ClpBitConverter;
+
 { TBlowfishEngine }
 
 function TBlowfishEngine.F(x: UInt32): UInt32;

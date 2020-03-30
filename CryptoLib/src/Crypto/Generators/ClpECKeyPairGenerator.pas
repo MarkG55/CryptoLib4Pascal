@@ -91,6 +91,9 @@ type
 
 implementation
 
+uses
+  ClpIX9ECParametersHolder;
+
 { TECKeyPairGenerator }
 
 constructor TECKeyPairGenerator.Create;

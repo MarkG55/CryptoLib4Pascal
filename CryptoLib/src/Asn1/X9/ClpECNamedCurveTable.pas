@@ -80,6 +80,10 @@ type
 
 implementation
 
+uses
+  System.SysUtils,
+  ClpIX9ECParametersHolder;
+
 { TECNamedCurveTable }
 
 class function TECNamedCurveTable.GetByName(const name: String)

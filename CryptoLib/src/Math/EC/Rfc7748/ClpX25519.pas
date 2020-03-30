@@ -73,6 +73,10 @@ type
 
 implementation
 
+uses
+  System.SysUtils,
+  ClpBitConverter;
+
 { TX25519 }
 
 class function TX25519.CalculateAgreement(const k: TCryptoLibByteArray;

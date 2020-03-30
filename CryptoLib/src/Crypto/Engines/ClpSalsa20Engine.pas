@@ -140,6 +140,9 @@ type
 
 implementation
 
+uses
+  ClpBitConverter;
+
 { TSalsa20Engine }
 
 constructor TSalsa20Engine.Create;

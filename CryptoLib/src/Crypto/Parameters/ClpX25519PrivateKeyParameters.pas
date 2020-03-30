@@ -70,6 +70,9 @@ type
 
 implementation
 
+uses
+  ClpIRandom;
+
 { TX25519PrivateKeyParameters }
 
 function TX25519PrivateKeyParameters.GeneratePublicKey

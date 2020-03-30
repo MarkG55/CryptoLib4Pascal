@@ -120,6 +120,11 @@ type
 
 implementation
 
+uses
+  ClpISignersEncodings,
+  ClpParametersWithRandom,
+  ClpICipherParameters;
+
 { TSignerUtilities }
 
 class procedure TSignerUtilities.Boot;

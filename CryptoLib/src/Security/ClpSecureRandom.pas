@@ -123,6 +123,9 @@ type
 
 implementation
 
+uses
+  System.DateUtils;
+
 { TSecureRandom }
 
 constructor TSecureRandom.Create(const generator: IRandomGenerator);

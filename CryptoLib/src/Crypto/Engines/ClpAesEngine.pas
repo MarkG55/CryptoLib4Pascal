@@ -292,6 +292,9 @@ type
 
 implementation
 
+uses
+  ClpBitConverter;
+
 { TAesEngine }
 
 class function TAesEngine.Shift(r: UInt32; Shift: Int32): UInt32;
